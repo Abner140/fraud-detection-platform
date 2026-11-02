@@ -3,9 +3,20 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+*.joblib
+*.npz
+*.parquet
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local data and generated datasets
+ml/data/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
 
 # Logs
 logs/
@@ -20,6 +31,8 @@ ml/models/*.joblib
 
 # Environment
 .env
+.env.*
+!.env.example
 
 # OS
 .DS_Store
